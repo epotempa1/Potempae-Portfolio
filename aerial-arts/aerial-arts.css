@@ -1,0 +1,541 @@
+.profile-pic{
+    border-radius:50%;
+    margin-left:250px;
+    max-width:200px;
+  }
+  
+  a{
+    text-decoration:none;
+  }
+  
+  .title-and-description{
+    padding-bottom:200px;
+    padding-top:200px;
+  
+  }
+  .title-and-description,
+  header{
+    background:#cdd9e5;
+    max-width:2000px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  
+  .wireframe-container{
+    padding-bottom:50px;
+  }
+  
+  .research-info-container,
+  .phase-two{
+    max-width:2000px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .phase-three,
+  .phase-one,
+  .phase-four{
+    max-width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  
+  h1{
+    font-size:50px;
+    font-weight:2000;
+  }
+  
+  h1,
+  .circus-hub-sentence {
+    margin-left:250px;
+    font-weight:1000px;
+    font-size:larger;
+  }
+  
+  .aerial-phase-two-description{
+    text-align:center;
+  }
+  
+  
+  .sitemap-description,
+  .user-journey-title,
+  .domain-notes{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    padding-top:100px;
+   width:500px;
+  }
+  
+  
+  h1{
+    font-size:50px;
+    font-weight:2000;
+  }
+  h3{
+    text-align:center;
+  }
+  
+  .challenge-title,
+  .client-title,
+  .timeline-title {
+   color: #cdd9e5;
+  }
+  
+  p{
+     font-family: 'Raleway', sans-serif;
+  }
+  
+  p{
+    font-size:large;
+  }
+  .basic-info-container{
+    margin-top:50px;
+    max-width:2000px;
+    margin-left:auto;
+    margin-right:auto;
+  
+  }
+  
+  .client,
+  .timeline,
+  .challenge{
+    max-width:800px;
+    margin-left:20px;
+  }
+  
+  .phase-five-title,
+  .phase-four-title,
+  .wireframe-heading,
+  .phase-two-title,
+  .research-title{
+    font-family:'Oooh Baby', cursive;
+    font-size:x-large;
+  }
+  .phase-five-information{
+    max-width:900px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .wireframes-description,
+  h2{
+    text-align:center;
+  }
+  
+  /*this is the information about research and interviews*/
+  
+  .phase-five,
+  .research-info-container{
+      background:#cdd9e5;  
+      color:black;
+      max-width:2000px;
+  } 
+  
+  aerial-phase-two-description{
+    text-align:center;
+  }
+  
+  .phase-five-information,
+  .research-info{
+    text-align:center;
+  }
+  
+  #domain-image {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    cursor:pointer;
+    transition:0.3s;
+  }
+  #domain-image:hover{
+    opacity:0.7;
+  }
+  /*domain image modal goes here ------------------- */
+  .modal-one{
+    display:none;
+    position:fixed;
+    padding-top:100px;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgb(120, 115, 115);
+  }
+  #domain-caption{
+    margin:auto;
+    display:block;
+    width:80%;
+    max-width: 700px;
+    text-align:center;
+    color:white;
+    padding:10px 0;
+    height:150px;
+  }
+  
+  .modal-content{
+    margin:auto;
+    display:block;
+    width:auto;
+    height:75%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*animation for domain image modal-----------*/
+  .modal-content,
+  #caption{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom{
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+  }
+  
+  /*this ends the modal for the domain image--------------*/ 
+  
+  
+  
+  
+  /*Here begins the modal for user journey modal image------------------------*/
+  #user-journey-image{
+    width:700px;
+    cursor:pointer;
+    margin-right:50px;
+  }
+  #user-journey-image:hover{
+    opacity:0.7;
+  }
+  .modal-two{
+    display:none;
+    position:fixed;
+    padding-top:100px;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgb(120, 115, 115);
+  }
+  #user-journey-caption{
+    margin:auto;
+    display:block;
+    width:80%;
+    max-width: 700px;
+    text-align:center;
+    color:white;
+    padding:10px 0;
+    height:150px;
+  }
+  
+  .user-journey-modal-content{
+    margin:auto;
+    display:block;
+    width:auto;
+    height:75%;
+  }
+  
+  .close-uj{
+    position:absolute;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    top: 50px;
+    right:400px;
+  }
+  
+  .close-uj:hover{
+    color:#0f6876;
+    cursor:pointer;
+    text-decoration:none;
+    
+  }
+  /*animation for modal-----------*/
+  .sitemap-modal-content,
+  #sitemap-caption,
+  .user-journey-modal-content,
+  #user-journey-caption,
+  .modal-content,
+  #domain-caption{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom{
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+  }
+  
+  /*here ends the information for the user journey--------*/
+  
+  /*Here begins the information for the sitemap modal*/ 
+  
+  
+  #sitemap-image{
+    width:700px;
+    margin-left:100px;
+    cursor:pointer;
+    margin-top:125px;
+  }
+  #sitemap-image:hover{
+    opacity:0.7;
+  }
+  .modal-three{
+    display:none;
+    position:fixed;
+    padding-top:100px;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgb(120, 115, 115);
+  }
+  #sitemap-caption{
+    margin:auto;
+    display:block;
+    width:80%;
+    max-width: 700px;
+    text-align:center;
+    color:white;
+    padding:10px 0;
+    height:150px;
+  }
+  
+  .sitemap-modal-content{
+    margin:auto;
+    display:block;
+    width:auto;
+    height:75%;
+  }
+  
+  .close-sm{
+    position:absolute;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    top: 50px;
+    right:150px;
+  }
+  .close-sm:hover{
+    color:#0f6876;
+    cursor:pointer;
+    text-decoration:none; 
+  }
+  /*here ends the info for the sitemap modal.*/ 
+  
+  .wireframe-container{
+    margin-top:250px;
+    color:black;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+  
+  /*This is for the box and the wireframes*/
+  
+  .wireframe-four-image,
+  .wireframe-three-image,
+  .wireframe-two-image,
+  .wireframe-one-image{
+    max-width:600px;
+    border:2px solid black;
+  }
+  
+  .wireframe-heading{
+    padding-top:50px;
+  }
+  
+  .aerial-retreats-description,
+  .wireframe-one{
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+    justify-content:space-around;
+  }
+  
+  .aerial-silks-description,
+  .find-a-studio-description{
+    display:flex;
+    flex-direction:row-reverse;
+    margin-top:100px;
+    justify-content:space-around;
+  }
+  
+  .find-a-studio-heading-w-description,
+  .retreats-heading-w-description,
+  .what-is-silks,
+  .wireframe-one-heading-description{
+    text-align:left;
+    max-width:700px;
+  }
+  
+  /*---------------------------This is what will happen on phone screens---------------------------*/
+    
+  @media (max-width: 900px) {
+    .profile-pic{
+       width:100px;
+       height:auto;
+      margin-left:20px;
+      }
+    
+    h1,
+    .title-and-description{
+      max-width:900px;
+      margin-left:0;
+    }
+  
+    .circus-hub-sentence{
+        margin-left:0;
+    }
+    
+    #sitemap-image,
+    #user-journey-image,
+    #domain-image{
+      width:300px;
+    }
+    
+    .sitemap-description,
+    .user-journey-title,
+    .domain-notes{
+      display:flex;
+      flex-direction:column;
+      max-width:400px;
+    }
+  
+    .wireframe-one-image,
+    .wireframe-two-image,
+    .wireframe-three-image,
+    .wireframe-four-image{
+      width:300px;
+    }
+  
+    
+    .domain-notes-and-photo,
+    .sitemap-photo-w-description,
+    .user-journey-container,
+    .find-a-studio-description,
+    .aerial-retreats-description,
+    .aerial-silks-description,
+    .wireframe-one{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      max-width:800px;
+    }  
+  
+    #domain-image,
+    #user-journey-image,
+    #sitemap-image{
+      margin-right:0;
+      margin-left:0;
+      padding-right:0;
+      padding-left:0;
+      margin-top:50px;
+      margin-bottom:0;
+      padding-top:0;
+      padding-bottom:0;
+    }
+    }
+  
+  @media (min-width:901px) and (max-width:1280px){
+    .profile-pic{
+       width:100px;
+       height:auto;
+      margin-left:20px;
+      }
+    
+    h1,
+    .title-and-description{
+      max-width:1400px;
+      margin-left:0;
+    }
+    .circus-hub-sentence{
+        margin-left:0;
+    }
+    #sitemap-image,
+    #user-journey-image,
+    #domain-image{
+      width:500px;
+      padding-top:50px;
+    }
+  
+    .domain-notes-and-photo,
+    .sitemap-photo-w-description,
+    .user-journey-container,
+    .find-a-studio-description,
+    .aerial-retreats-description,
+    .aerial-silks-description,
+    .wireframe-one{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      max-width:1024px;
+      margin-left:auto;
+      margin-right:auto;
+    }  
+  }
+  
+  @media (min-width:1025px){
+    .user-journey-container,
+    .sitemap-photo-w-description,
+    .domain-notes-and-photo{
+      display:flex;
+      flex-direction:row;
+      max-width:1280px;
+      margin-left:auto;
+      margin-right:auto;
+      justify-content:space-between;
+      padding-top:150px;
+      
+    }
+    .profile-pic{
+       width:100px;
+       height:auto;
+      margin-left:200px;
+      }
+  
+  
+    .user-journey-container{
+      display:flex;
+      flex-direction:row-reverse;
+    }
+  
+    .wireframe-container{
+      max-width:2000px;
+     background-color: #cdd9e5
+    }
+    .phase-three{
+      max-width:1000px;
+    }
+  
+    .wireframe-one-image,
+    .wireframe-two-image,
+    .wireframe-three-image,
+    .wireframe-four-image{
+      width:550px;
+  }
+  }
+    

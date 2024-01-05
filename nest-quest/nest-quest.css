@@ -1,0 +1,272 @@
+.profile-pic{
+    border-radius:50%;
+    margin-left:250px;
+    max-width:100px;
+  }
+  
+  .title-and-description{
+    padding-bottom:200px;
+    padding-top:200px;
+  }
+  a{
+    text-decoration:none;
+  }
+  
+  .title-and-description,
+  header{
+    background:#b1d2bf;
+    max-width:2000px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  h1,
+  .nest-quest-sentence {
+    margin-left:250px;
+    font-weight:1000px;
+    font-size:larger;
+  }
+  
+  h1{
+    font-size:50px;
+    font-weight:2000;
+  }
+  
+  .challenge-title,
+  .client-title,
+  .timeline-title {
+   color: #b1d2bf;
+  }
+  
+  ol,
+  p,
+  .title-and-description{
+     font-family: 'Raleway', sans-serif;
+  }
+  
+  p{
+    font-size:large;
+  }
+  .basic-info-container{
+    margin-top:50px;
+    max-width:2000px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .client,
+  .timeline,
+  .challenge{
+    max-width:800px;
+  }
+  
+  
+  .phase-five-container,
+  .phase-one-container,
+  .phase-three-container{
+    background-color:#b1d2bf;
+    padding-top:50px;
+    max-width:2000px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:50px;
+  }
+  
+  
+  h2,
+  h3{
+    text-align:center;
+  }
+  .phase-five-description,
+  .phase-four-description,
+  .phase-four,
+  .phase-three,
+  .phase-one{
+    text-align:left;
+    max-width:800px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .persona-description{
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .phase-five-title,
+  .phase-four-title,
+  .phase-three-title,
+  .phase-two-title,
+  .phase-one-title{
+    font-family:'Oooh Baby', cursive;
+    font-size:x-large;
+  }
+  .ordered-lists ol{
+    font-family:'raleway', sans-serif; 
+  }
+  
+  .ordered-lists{
+    display:flex;
+    justify-content:space-around;
+    text-align:left;
+  }
+  
+  .phase-two-container{
+    max-width:2000px;
+    margin-left:auto;
+    margin-right:auto;
+    background:white;
+    padding-top:100px;
+    padding-bottom:100px;
+  }
+  
+  .newington-green-photo,
+  .filters-photo,
+  .london-neighborhoods-photo,
+  .agency-reviews-photo,
+  .avg-rent-photo,
+  .search-results-photo{
+    width:650px;
+  }
+  
+  .phase-five-description,
+  .homepage-with-filters-description,
+  .checkmark-heading-description,
+  .avg-rent-description,
+  .london-neighborhoods-description,
+  .agency-reviews-description{
+    text-align:center;
+    max-width:45%;
+  }
+  
+  .homepage-with-filters-description,
+  .checkmark-heading-description,
+  .phase-four-description,
+  .avg-rent-description,
+  .london-neighborhoods-description,
+  .agency-reviews-description{
+    text-align:left;
+  }
+  
+  .newington-green-page,
+  .agency-reviews-description-and-photo,
+  .checkmark-description-and-photo{
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+    justify-content:space-evenly;
+  }
+  
+  .homepage-with-filters,
+  .london-neighborhoods,
+  .avg-rent-description-and-photo{
+    display:flex;
+    flex-direction:row-reverse;
+    margin-top:100px;
+    text-align:center;
+    justify-content:space-evenly;
+  }
+  
+  
+  /*------------------------cellphones----------------------------------------*/
+  @media (max-width:800px) {
+  .profile-pic{
+     width:100px;
+     height:auto;
+    margin-left:20px;
+    }
+  
+    .title-and-description{
+      padding-bottom:200px;
+      padding-top:100px;
+  }
+    h1,
+    .title-and-description{
+      max-width:500px;
+      margin-left:0;
+    }
+  
+    .nest-quest-sentence{
+      margin-left:0;
+    }
+    
+    .newington-green-photo,
+    .filters-photo,
+    .agency-reviews-photo,
+    .search-results-photo,
+    .avg-rent-photo,
+    .london-neighborhoods-photo,
+    .six-categories-photo{
+      width:300px;
+    }
+  
+    .newington-green-page,
+    .homepage-with-filters,
+    .london-neighborhoods,
+    .agency-reviews-description-and-photo,
+    .avg-rent-description-and-photo,
+    .checkmark-description-and-photo{
+      display:flex;
+      flex-direction:column;
+    }
+    
+    .prototype-build-description,
+    .avg-rent-description-and-photo,
+    .london-neighborhoods,
+    .agency-reviews-description-and-photo{
+      margin-top:20px;
+  }
+    
+    .phase-four,
+    .phase-two,
+    .phase-three{
+      margin-top:50px;
+    }
+    .newington-green-page,
+    .london-neighborhoods,
+    .agency-reviews-description-and-photo,
+    .avg-rent-description-and-photo,
+    .checkmark-description-and-photo,
+    .phase-two,
+    .phase-three,
+    .phase-four{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      max-width:800px;
+    }
+  }
+  /*laptops and desktops-------------------*/
+  @media (min-width: 801px) and (max-width:1024px) {
+  .profile-pic{
+    margin-top:25px;
+    width:75px;
+    height:auto;
+  }
+  
+    .phase-two,
+    .phase-three,
+    .phase-four{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      max-width:800px;
+    }
+  }
+  
+  @media (min-width:1025px) and (max-width:1280px){5
+      height:auto;
+    .profile-pic{
+      margin-top:25px;
+      width:75px;
+      height:auto;
+    }
+    
+    .london-neighborhoods-description,
+    .agency-reviews-description,
+    .avg-rent-description,
+    .checkmarks-heading-description{
+      max-width: 600px;
+    }}

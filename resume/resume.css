@@ -1,0 +1,177 @@
+
+ul{
+    list-style:none;
+  }
+  
+  header{
+    background: white;
+    color:#9e77b1;
+    margin-bottom:0%;
+    padding: 2%;
+    font-family: 'Playfair Display', serif;  
+    max-width:2000px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  hr.divider{
+    border-top:2px solid;
+    border-top-color:#0f6876;
+    border-radius:5px;
+    max-width:75%;
+    margin-top:20px;
+  }
+  .elyse-name{
+    margin-left:20%;
+  }
+  .to-home{
+    text-decoration:none;
+  }
+  .elyse-name:hover{
+    cursor:pointer;
+  }
+  
+  .stylish {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navigation{
+    list-style:none;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:20%;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navigation-link{
+    padding:10px;
+    color: #673781;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /*here is the dropdown menu stuff*/ 
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+  
+  h1{
+    font-family: 'Playfair Display', serif;
+    font-style:italic;
+    color:#0f6878;  
+  }
+  
+  h2{
+    text-align:center;
+    margin-top:100px;
+    font-family: 'Playfair Display', serif;
+    font-size:xx-large;
+     color:#0f6878; 
+  }
+  
+  link{
+    color:white;
+  }
+  
+  a:hover{
+    color:#dda8f0;
+  }
+  a{
+    text-decoration:none;
+  }
+  /*resume border here*/ 
+  
+  .resume-border{
+    border:1px solid #0f6876;
+    color:#0f6876;
+    max-width:1280px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:150px;
+    padding-bottom:150px;
+    border-radius:10%;
+  }
+  
+  .other-heading,
+  .work-heading,
+  .education-heading{
+    font-size:xx-large;
+    margin-left:100px;
+  }
+  
+  .email-address,
+  .other-skills,
+  .sorenson-heading-and-tasks,
+  .freelance-heading-and-tasks,
+  .columbia-stuff,
+  .degree-and-courses{
+    display:flex;
+    flex-direction:column;
+    margin-left:700px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .email-address{
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:large;
+    padding-left:100px;
+  }
+  hr.email-divider{
+    border-top:2px solid;
+    border-top-color:#0f6876;
+    border-radius:5px;
+    max-width:75%;
+  
+  }
+  
+  
+  .location{
+    margin-left:5px;
+  }
+  
+  /*media query stuff here for cellphones*/
+  
+  @media(max-width:900px){
+  
+  .resume-border{
+    border:none;
+    color:#0f6876;
+    max-width:900px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:150px;
+    padding-bottom:150px;
+    border-radius:0%
+  }
+    .email-address,
+   .other-skills,
+  .sorenson-heading-and-tasks,
+  .freelance-heading-and-tasks,
+  .columbia-stuff,
+  .degree-and-courses{
+    display:flex;
+    flex-direction:column;
+    margin-left:25px;
+    margin-right:auto;
+    font-family: 'Raleway', sans-serif;
+  }
+  .other-heading,
+  .work-heading,
+  .education-heading{
+    font-size:xx-large;
+    margin-right:auto;
+    color:#673781;
+    margin-left:15px;
+  }
+    hr.email-divider{
+    border-top:none;
+  
+  }
+  }

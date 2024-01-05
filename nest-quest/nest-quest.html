@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nest Quest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nest-quest.css">
+  <script defer src="web-dev.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="to-home" href="../homepage/homepage.html">
+        <img class="profile-pic" src="profile-picture.jpg">
+    </a>
+  </header>
+  <div class="title-and-description">
+    <h1> Nest Quest</h1>
+    <div class= "nest-quest-sentence">
+       <p>A website designed to empower London renters </p>
+    </div>
+  </div>
+  
+  <div class="basic-info-container">
+  <div class="challenge">
+    <div class="challenge-title">
+    <h2>The Challenge</h2>
+    </div>
+    <div class="challenge-description">
+      <p>Landlords hold a substantial amount of power over their tenants, especially in jurisdictions with lighter               housing
+      restrictions such as the USA, the UK, and Australia. This skewed power dynamic not only has devastating impacts           on residents' mental and physical health, but unethical landlord behavior has been shown to carry over to the           housing platforms used to search for rental properties, thus              
+       perpetuating an oppressive cycle, largely trapping minority groups and those most at risk. </p>
+
+      <p>Developed through extensive user research and participatory design methods, Nest Quest is a housing platform     
+      designed to combat harmful practices, ultimately shifting the power dynamic in favor of tenants. While user research     focused on the London market, ideally Nest Quest would           benefit globally. </p>
+    </div>
+  </div>
+
+    <div class="client">
+      <div class="client-title">
+      <h2>Client</h2>
+      </div>
+      <div class="client-description">
+      <p>Dissertation Project for a Masters in HCID at City, University of London</p>
+      </div>
+    </div>
+    
+    <div class="timeline">
+      <div class="timeline-title">
+      <h2>Timeline</h2>
+      </div>
+      <div class="timeline-description">
+      <p>June 2023-October 2023</p>
+      </div>
+  </div>
+  </div>
+  <div class="phase-one-container">
+    <div class="phase-one">
+      <div class="phase-one-title">
+   <h2>Phase One : Research</h2>
+      </div>
+    <div class="lit-review">
+      <h2>Literary Review</h2>
+      <p>This project began by exploring available research to further understand factors contributing to stressful experiences navigating the rental housing market and HCI’s contribution to alleviating, (or exacerbating) these concerns.<p>
+
+      <p>While the well-documented issues of soaring rent prices and unethical landlord conduct were expected findings, my research unveiled a more intriguing revelation. It revealed that contemporary online rental platforms perpetuate oppressive dynamics, ultimately exacerbating the power imbalance in favor of landlords.</p>
+
+      <p>Furthermore, an empowerment framework established by Schneider et. al., served as a foundation for the data analysis throughout this study.</p>
+    </div>
+      
+    <div class="user-research">
+     <h2>User Research and Data Analysis</h2>
+      <p>I began by observing renters who had experience navigating London's Private Rental Sector as they used their platform of choice to search for a new home. Through     
+        analyzing the data, six key features emerged as the primary         features that London renters prioritize when searching for a home, and are displayed in the table below. </p>
+      <div class="six-categories">
+     <img class="six-categories-photo" src="six-categories.png"/>
+    </div> 
+      <p>I also identified seven ways current platforms are supporting the search process, and six commonly shared pain points, indicating opportunities for improvement.</p>
+        <div class="ordered-lists-container">
+          <div class="ordered-lists">
+          <div class="supporting-users">
+            <h3>How Technology is Supporting Users</h3>
+        <ol>
+          <li> Mapping Features</li>
+          <li> Seeing photos and floorplans</li>
+          <li> Having the ability to save listings for later review </li>
+          <li> Receiving instant notifications or e-mails when a new ad is posted.</li>
+          <li> The ability to post an ad about themselves </li>
+          <li> Filtering by the newest results first </li>
+          <li> Seeing "surface level" information about an ad before clicking on it</li>
+        </ol>
+            </div>
+          <div class="pain-points">
+            <h3>Common Pain Points</h3>
+          <ol>
+            <li>Inaccurate Filters</li>
+            <li> Out-of-date Listings</li>
+            <li>Poor Communication</li>
+            <li>Low Quality Photos</li>
+            <li>Scamming Concerns</li>
+            <li>Lack of Neighborhood Information</li>
+          </ol>
+        </div>
+          </div>
+          </div>  
+    </div>
+    </div>
+  </div>
+    <!-----------------------Phase two container--------------------------->
+    <div class="phase-two-container">
+      <div class="phase-two">
+        <div class="phase-two-title-description">
+        <div class="phase-two-title">
+        <h2>Phase Two : Building the Prototype</h2>
+        </div>
+        <div class="prototype-build-description">
+          <p>I wanted to maintain positive aspects of current technologies that users enjoyed, but also address their concerns to deliver a more empowering experience. During the   
+            observations, the majority of users experienced frustration after taking the time to select their desired filters, only to realize the generated results did not match what they were looking for. Even worse, they would frequently not discover this until clicking on the advertisement and reading through the   descriptions. </p>
+        </div>
+        </div>
+
+<!------homepage with filters begins here--------->
+  <div class="homepage-with-filters">
+    <div class="homepage-with-filters-description">
+    <h3>Available Filters</h3> 
+      <p>Filters from popular rental websites prevelant in the UK were carried over to Nest Quest to maintain familiarity amongst users. For categorization, I took inspiration from Domu, a popular website used in Chicago. I also included the option to add keywords in case a filter was not available. </p>
+    </div>
+  <div>
+    <img class="filters-photo" src="homepage-with-filters.jpg"/>
+    </div>
+  </div>
+<!--------------checkmark description and photo begins here.----------------------------->
+         <div class="checkmark-description-and-photo">
+           <div class="checkmark-heading-description">
+       <h3>Checkmarks to Indicate Corresponding Filters</h3>
+              <p> I began by implementing check marks on search results to indicate that a listing would include  previously selected filters. Shown below is an example of what a user would see                      when they select "couples" and "students" allowed as requirements for their new home. If a landlord fails to indicate any filters in their listing, then it simply will not appear in the results </p>
+
+               <p> To alleviate concerns about scams and questionable landlords, landlords are assigned a rating  cultivated by past tenants, (more on that later). An average response time was also added to give  renters an idea of how promptly they can expect a response, if any at all.  </p>
+            
+                <p>This layout also maintains well-liked features such as seeing "snapshots" of a unit where they can see photographs, the location, number of bedrooms, rent range, and a brief                                              description of the unit. The heart in the top right corner indicates a "save" feature so users can refer to this listing at a later time, and the map is interactive; as the user moves it to a different  location, new options will populate.</p>   
+           </div>
+           <div class="search-results-image">
+        <img class="search-results-photo" src="search-results.jpg"/>
+           </div>
+         </div>
+ <!--------------------average rent stuff starts here---------------------------------->
+      <div class="avg-rent-description-and-photo">
+      <div class="avg-rent-description">
+       <h3>Showing Average Rent Prices</h3>
+        <p>Many of those I interviewed, especially those unfamiliar to London, were concerned about getting ripped off by accepting a rental rate higher than market value. Because of this, I added a small, but important feature to the listing of a page to indicate whether an asking price was comparable to other homes in the area. </p>
+      </div>
+        <div class="avg-rent-image">
+          <img class="avg-rent-photo" src="avg-rent.jpg"/>
+        </div>
+    </div>
+
+  <!------------------agency reviews and description begin here.---------------------------->
+      <div class="agency-reviews-description-and-photo">
+        <div class="agency-reviews-description">
+         <h3>Scoring Agencies and Landlords</h3>
+          <p>Unethical landlord behavior and poor response time was a reoccurring frustration for many users. To tackle this  annoyance, I added the option to assign scores to landlords based on reviews from verified tenants.</p>
+          <p>To understand the criteria and feedback that went into a landlord's score, a user can visit their profile where the score is broken down into categories. Additionally, they can read detailed reviews by verified tenants, and view all properties under this landlord if they score favorably. </p>
+          <p>If a renter chooses to focus on living under a landlord with a higher rating, can browse through their options by  sorting them by rating or alphabeticaly. </p>
+        </div>
+        <div class="agency-reviews-image">
+        <img class="agency-reviews-photo" src="agency-reviews.jpg"/>
+        </div>
+    </div>
+      
+ <!------------------------London Neighborhoods section goes here.-------------------------->
+      <div class="london-neighborhoods">
+        <div class="london-neighborhoods-description">
+       <h3>London Neighborhoods</h3>
+          <p>Although each participant expressed a strong emphasis on location as a primary consideration, especially those who were unfamiliar or new to London, none took advantage of SpareRoom's feature to provide neighborhood information such as safety statistics and average market rates.  Four users instead resorted to external sources like Reddit to research neighborhoods. I hypothesized bringing this feature to the forefront by including it in the navigation bar would generate greater user engagement, as this information is difficult to locate on SpareRoom.  The purpose of this page is to                     ensure renters have access to neighborhood information that will help them build confidence when considering a new flat. Ideally, this would provide them with additional options they may not have previously considered.</p>
+          <p>After clicking on the “London Neighborhoods” tab, visitors are greeted with a category listing the most popular neighborhoods in London. They are able to explore London by searching according to zone, region, neighborhood, borough, or type in a location themselves.</p>
+        </div>
+        <div class="london-neighborhoods-image">
+        <img class="london-neighborhoods-photo" src="london-neighborhoods.jpg"/>
+        </div>
+      </div>
+    <!-----Newington Green Neighbohrood info--------------------------->
+        <div class="newington-green-page">
+          <div class="newington-green-information">
+            ><h3>Detailed Neighborhood Information</h3>
+            <p>When a user accesses the page dedicated to providing details about a specific neighborhood, (in this example,               Newington Green), they can see a photograph, read a brief description, and see local transportation options. </p>
+          </div>
+          <div class="newington-green-photo">
+            <img class="newington-green-photo" src="newington-green-information.jpg"/>
+          </div>
+        </div>
+    </div>
+    </div>
+  
+    
+ <!-----------------------------Phase three begins here.---------------------------->
+    <div class="phase-three-container">
+      <div class="phase-three">
+        <div class="phase-three-title">
+         <h2>Phase Three : Testing the Prototype</h2>
+        </div>
+        <div class="phase-three-description">
+          <p>To ensure continuous engagement with users throughout the design process, I again sought feedback from people               who would realistically use Nest Quest.I chose to use gray scale, medium fidelity prototypes to offer a realistic              glimpse of the final product, but afford flexibility for alterations before final deployment. Meetings again                 were conducted remotely for convenience, and recorded for later transcription. Results of this analysis were compared to the empowerment framework mentioned earlier. </p>
+          
+         <h3>Search Results: Checkmarks</h3>
+          <p>I began by getting users' initial thoughts about the homepage and filters. I then asked them to move onto the results page where I asked for their thoughts about the new checkmark feature. Here, four out of five said they appreciated this feature. One person stated, <strong>"I have seen instances where I've applied filters, there would be rooms advertised as 'couples allowed,' but then in the heading it would say, 'single occupancy only.' So it, (the prototype) does it for me." </strong></p>
+        <h3>A Scoring System</h3>
+          <p>Overall, an indication about the poster's average response rate was well received by four people. One person said, <strong>"If I am looking for a place, I would like to get a response quickly as well. Also, it helps me know it's not an out-of-date listing, so they didn't just put it up there and forget about it."</strong></p>
+            <p>Additionally, one feature that was unaimously praised was the ratings displayed alongside landlords and agencies appearing in the search results. One user exclaimed, <strong>"Oh! Oh! That, I like. Landlord/agency score. THAT I love." </strong> This enthusiasm carried over to the landlord and agency directory page where users affirmed this page would be helpful in their search for housing. One participant said, <strong>"I would definitely like to see reviews from the tenants. In my search, it was great when we could talk to current tenants and ask if there had been any issues. The landlord gets to do that to you- they get to ask for references, so I feel like we should get to ask for references as well." </strong> Some mentioned, for example, they would only focus on the higher rated agencies, and disregard those with one or two star reviews. </p>
+      </div>
+       <h3>Neighborhood Information</h3>
+        <p>During original observations, participants expressed keen interest in finding information about neighborhood safety and average market rates. As a result, during evaluations I simply asked users how they felt about these features being available during their housing search. The results were mixed as only two participants found the neighborhood search page to be definitively helpful in their search. One user stated, <strong>"I love it! This is very helpful! Yeah, safety rating!"</strong>The remaining three users, however, were unsure whether this page would be beneficial or they said it was only somewhat helpful. One recruit was unclear about the page's purpose, stating: <strong>"Yeah, it make sense to me now that you've explained it, but I was a bit confused."</strong>
+      </div>
+    </div>
+    </div> 
+   </div>
+ </div>
+  
+  <div class="phase-four-container">
+    <div class="phase-four">
+      <div class="phase-four-title">
+        <h2>Final Thoughts and Reflection</h2>
+      </div>
+        <div class="phase-four-description">
+          <h3>Answering the Research Questions</h3>
+       <p>Based on user responses from the coded data, we can conclude that renters are more empowered when presented with historically absent information. A more challenging question to answer, however, was the level of impact, (if any) these notions of empowerment would have on tenant behavior. Having the ability to score landlords yielded the most insight with several users insisting they would not reach out to lower-ranked landlords. One participant, for example, stated <strong>"I would definitely ignore the one-star ratings and go for the one with better ratings."</strong> When presented with a hypothetical scenario in which a user was presented with the option of contacting a landlord with two stars or five stars, another recruit responded: <strong>"I don't think I would reach out to the 2/5 agency because the property market, especially in the UK, is really volatile and I don't really want to make a bad decision."</strong> Though compelling, the answer to this question lies beyond the scope of resources available for this project and would require further study to determine.</p>
+          <h3>Modifications</h3>
+          <p>If I was given the chance to start this project over armed with the power of hindsight, there are a few modifications I would make. First, I would conduct a thorough competitor analysis for SpareRoom, RightMove and Zoopla against a set of heuristics, which would likely produce data that would serve as a guide for more appropriate methods and design choices. I would have also liked to conduct a co-design workshop with users to enable collaborative brainstorming and discussion to establish what features users find to be the most beneficial and empowering. Following this event, I would have established appropriate information architectgure by asking users for feedback regarding filter options, labeling, and categorization. While I knew eliminating this step for the sake of time would create a detriment, it became apparent when some users expressed confusion with wording inconsistencies and page set up. Given the novelty of some of the pages found on Nest Quest, I would argue that an IA analysis is especially critical. </p>
+          <h3>Considerations for Future Studies</h3>
+          <p>In the future, if I were to collect data depicting tenant behavior, users would need to be observed using Nest Quest as a live website, and actively searching for housing. I would begin a search for recruitments by asking interested parties to fill out an open-ended recruitment screener to gage their level of investment. For the study itself, I would again recommend contextual inquiries and possibly compare the user experience of Nest Quest with an already established website such as Spare Room, and analyze any noticeable shift between the two experiences. </p>
+      <p>Another limitation for this study that would require adjustment for a more comprehensive data set is the inclusion of marginalized groups. Much of the research found in the literary review emphasized marginalized groups to be the most affected by poor system regulation and unethical landlords. For this study, each participant was of the same age group and most were current HCI grad students. For Nest Quest to become a tool that benefits all renters, further research must be done to expand diversity in the user pool to include, for example: members of lower socioeconomic status who may receive housing assistance from government entities, and people with disabilities. </p>
+        </div>
+      </div>
+    </div>
+  
+</body>
+</html>

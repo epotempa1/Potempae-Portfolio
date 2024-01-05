@@ -1,0 +1,406 @@
+/*------------------------basic code true for all-------------------------------*/
+.elyse-name{
+    margin-left:50px;
+  }
+  
+  a {
+   color: #004f80;
+    text-decoration:none;
+  }
+  
+  .intro{
+    display:flex;
+    font-family: 'Raleway', sans-serif;
+    font-size:larger;
+    color:#004f80;
+    padding-left:50px;
+  }
+  
+  .link{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none;
+  }
+  .profile-pic {
+    border-radius:25%;
+  }
+  
+  header {
+    background: white;
+    color: #0f6876;
+    margin-bottom: 0%;
+    padding: 2%;
+    font-family: 'Oooh Baby', cursive;
+    font-size: x-large;
+  }
+  .resume:hover{
+    opacity:0.7;
+    cursor:pointer;  
+    color:white;
+  }
+  
+  .linkedin:hover{
+    opacity:0.7;
+    cursor:pointer;
+    color:white;
+  }
+  
+  p{
+     font-family: 'Raleway', sans-serif;
+  }
+  
+  /*cellphones and tablets-------------------------------------------*/
+  @media (max-width:799px) {
+  .profilepic-with-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width:75%;
+  }
+  
+  .profile-pic {
+    max-height: 350px;
+    max-width: 350px;
+    margin-bottom: 50px;
+    margin-top:0px;
+  }
+  
+  .intro {
+    margin-top: 0;
+  }
+  
+  .two-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .two-buttons {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+    
+    .resume,
+    .linkedin{
+      color:white;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      background-color:#0f6876;
+      border-radius:25%;
+      height:100px;
+      width:100px;
+      font-family: 'Raleway', sans-serif;
+      text-decoration:none;
+      margin:0 10px;
+    }
+      
+  .project-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+  }
+    .web-dev-homepage,
+    .kitchen-mate-homepage{
+      margin-top:0px;   
+    }
+  
+  .circus-hub,
+  .web-dev-homepage,
+  .kitchen-mate-homepage,
+  .nest-quest-pic {
+    width: 75%; 
+    height: auto;
+    margin-bottom: 20px; 
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    
+  }
+    .nest-quest-overlay,
+    .circus-hub-overlay,
+    .kitchen-mate-overlay,
+    .web-dev-overlay {
+     display:none;
+    }
+    
+    .web-dev-mobile-text,
+    .kitchen-mate-mobile-text,
+    .nest-quest-mobile-text,
+    .mobile-text{
+      padding-bottom:100px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      font-family: 'Raleway', sans-serif;
+      max-width:450px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    }
+  
+  
+  /* -------------------------Hide the mobile elements on desktop screens------------- */
+  @media (min-width: 800px) {
+  .web-dev-mobile-title,
+  .web-dev-description-mobile,
+  .kitchen-mate-mobile-title,
+  .kitchen-mate-description-mobile,
+  .circus-hub-title-mobile, 
+  .circus-hub-description-mobile,
+  .nest-quest-title-mobile,
+  .nest-quest-description-mobile {
+    display: none;
+  } 
+  }
+  /*-------------------------------bigger screens -------------------------------*/
+   @media (min-width: 800px) {
+        
+  a {
+   color: #0f6876;
+    text-decoration:none;
+  }
+  
+  .link{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none;
+  }
+  
+  .profilepic-with-intro{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    max-width:950px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .intro{
+    display:flex;
+    font-family: 'Raleway', sans-serif;
+    font-size:larger;
+    color:#004f80;
+    padding-left:50px;
+    padding-top:50px;
+  }
+  
+  .profile-pic{
+    border-radius:25%;
+    height:500px;
+    width:500px;
+    margin-top:200px;
+  }
+  
+  .resume,
+  .linkedin{
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#0f6876;
+    border-radius:25%;
+    height:100px;
+    width:100px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none;
+  
+  }
+  .two-buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    max-width:950px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .resume{
+    margin-left:20px;
+  }
+  .linkedin{
+    margin-left:450px;
+  }
+  
+  .resume:hover{
+    opacity:0.7;
+    cursor:pointer;  
+    color:white;
+  }
+  
+  .linkedin:hover{
+    opacity:0.7;
+    cursor:pointer;
+    color:white;
+  }
+  
+  .project-list-container{
+    padding-top:250px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+     
+  .circus-hub,
+  .web-dev-homepage,
+  .kitchen-mate-homepage,
+  .nest-quest-pic{
+    width:75%;
+    height:auto;
+    cursor:pointer;
+  }
+  .web-dev-homepage,
+  .kitchen-mate-homepage{
+    margin-top:100px;
+  }
+     
+  .kitchen-mate-container,
+  .web-dev-container,
+  .IA-project-container,
+  .dissertation-nest-quest{
+    position:relative;
+    width:550px;
+    height:auto;
+  }
+  
+  .kitchen-mate-homepage,
+  .web-dev-homepage,
+  .circus-hub,
+  .nest-quest-pic{
+    display:block;
+    width:100%;
+  }
+  
+  .nest-quest-overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    opacity:0;
+    background: #b1d2bf;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    transition: opacity 0.25s;
+    color:black; 
+  }
+  .circus-hub-overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    opacity:0;
+    background: #cdd9e5;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    transition: opacity 0.25s;
+    color:black;
+  }
+  .kitchen-mate-overlay{
+    position:absolute;
+    top:100px;
+    bottom:0;
+    left:0;
+    right:0;
+    height:388px;
+    width:550px;
+    opacity:0;
+    background: #67ac76;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    transition: opacity 0.25s;
+    color:white;
+  }
+  .web-dev-overlay{
+    position:absolute;
+    top:100px;
+    bottom:0;
+    left:0;
+    right:0;
+    height:388px;
+    width:550px;
+    opacity:0;
+    background: #572e56;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    transition: opacity 0.25s;
+    color:white;
+  }
+  
+  .web-dev-overlay>*,
+  .kitchen-mate-overlay>*,
+  .circus-hub-overlay>*,
+  .nest-quest-overlay>*{
+    transform:translateY(20px);
+    transition: transform 0.25s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:80%;
+  }
+  
+  .web-dev-overlay:hover,
+  .kitchen-mate-overlay:hover,
+  .circus-hub-overlay:hover,
+  .nest-quest-overlay:hover{
+    opacity:1;
+    cursor:pointer;
+  }
+  
+  .nest-quest-overlay:hover >*{
+    transform: translateY(0);
+  }
+  .circus-hub-overlay:hover >*{
+    transform: translateY (0);
+  }
+  .kitchen-mate-overlay:hover >*{
+    transform:translateY(0);
+  }
+  .web-dev-overlay:hover >*{
+    transform:translateY(0);
+  }
+  
+  .web-dev-title,
+  .web-dev-description,
+  .kitchen-mate-title,
+  .kitchen-mate-description,
+  .circus-hub-title,
+  .circus-hub-description,
+  .nest-quest-title,
+  .nest-quest-description{
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .kitchen-mate-title,
+  .web-dev-title,
+  .circus-hub-title,
+  .nest-quest-title{
+    font-size:large;
+  
+  }
+  }

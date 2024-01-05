@@ -1,0 +1,629 @@
+.title-and-description,
+header{
+  background:#67AB76;
+  max-width:2000px;
+  margin-right:auto;
+  margin-left:auto;
+  color:white;
+}
+.title-and-description{
+  padding-bottom:200px;
+  padding-top:200px;
+
+}
+h1,
+.kitchen-mate-sentence {
+  margin-left:250px;
+  font-weight:1000px;
+  font-size:larger;
+}
+
+p{
+  text-align:left;
+}
+
+h1{
+  font-size:50px;
+  font-weight:2000;
+}
+
+p,
+.title-and-description{
+   font-family: 'Raleway', sans-serif;
+}
+
+.profile-pic{
+  border-radius:50%;
+  margin-left:250px;
+  max-width:100px;
+}
+
+.basic-info-container{
+  margin-top:50px;
+  max-width:2000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.client,
+.timeline,
+.challenge{
+  max-width:800px;
+}
+
+.challenge-title,
+.client-title,
+.timeline-title {
+ color: #67AB76;
+}
+
+p{
+  font-size:large;
+}
+
+/*Research information here*/
+
+.persona-container,
+.ID-research-container{
+  background:#67AB76;
+  padding-top:50px;   
+  color:white;
+  max-width:2000px;
+  margin-right:auto;
+  margin-left:auto;
+} 
+
+.km-wireframes{
+  border:20%;
+  border-style:groove;
+    background-color:#67AB76;
+    color:white;
+  }
+
+.reflection-text,
+.evaluation-and-testing,
+.data-analysis-text,
+.research-information{
+  text-align:center;
+  padding-bottom:50px;
+  max-width:800px;
+  margin-left:auto;
+  margin-right: auto;   
+}
+
+
+.brainstorming-title{
+  text-align:center;
+}
+.user-flows-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:800px;
+  text-align:center;
+  
+}
+
+#onboarding-photo:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+#cooking-flow-photo:hover {
+  opacity: 0.7;
+  cursor:pointer;
+}
+#custom-recipe-image:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+
+#scan-image:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+#daily-log-image:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+
+@keyframes zoom{
+  from{transform:scale(0)}
+  to{transform:scale(1)}
+}
+
+/*These are the photos and text for the data analysis section-----------*/
+
+
+.ideation-description,
+.evaluation-and-testing{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ideation-container{
+  padding-top:30px;
+  max-width:2000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.scan-caption,
+.daily-log-caption,
+.custom-caption,
+.onboarding-caption,
+.cooking-caption{
+  width:45%
+}
+
+#custom-recipe-image,
+#daily-log-image,
+#scan-image,
+#onboarding-photo,
+#cooking-flow-photo{
+  width:650px;
+  margin: auto;
+  display: block;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.scan-description-photo,
+.cooking-a-recipe-flow{
+  display:flex;
+  flex-direction:row-reverse;
+  padding-top:50px;
+  margin-right:auto;
+  margin-left:auto;
+  justify-content:space-between;
+}
+
+
+.onboarding-description-flow,
+.custom-recipe-description-photo,
+.daily-log-photo-description{
+  display:flex;
+  flex-direction:row;
+  padding-top:50px;
+  margin-right:auto;
+  margin-left:auto;
+  justify-content:space-between;
+}
+
+
+
+p,
+.eval,
+.research{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/*personas and text here*/ 
+
+.brian-heading-description,
+.maria-heading-description{
+  display:flex;
+  flex-direction:column;
+  max-width:700px;
+  text-align:center;
+}
+
+.brian-description-and-photo,
+.maria-description-and-photo{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.brian-description-and-photo,
+.maria-description-and-photo{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.persona-description{
+  display:flex;
+  flex-direction:column;
+  max-width:600px;
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:100px;
+}
+
+
+/*Font styles for the headings are here.-------*/
+
+.reflection-title,
+.ideation-title,
+.data-analysis-heading,
+.evaluation-title,
+.phase-one-title,
+.km-wireframes-title,
+.persona-title{
+  font-family:'Oooh Baby', cursive;
+  font-size:x-large;
+  text-align:center;
+}
+
+.prototype-list{
+  text-align:left;
+  font-family:'raleway'
+}
+
+
+/*This is the CSS for the persona modals*/ 
+
+
+#brian-image,
+#maria-image{
+  margin: auto;
+  display: block;
+  max-width: 650px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#brian-image:hover{
+  opacity:.7;
+}
+#maria-image:hover{
+  opacity:.7;
+}
+
+/*animation for persona modals-----------*/
+.daily-log-one,
+.scan-item-one,
+.custom-recipe-one,
+.cooking-flow-one,
+.onboarding-one,
+.persona-modal-two,
+.persona-modal-one{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+}
+.daily-log-content,
+.scan-item-content,
+.custom-recipe-content,
+.cooking-flow-content,
+.onboarding-content,
+.m-modal-content,
+.bmodal-content{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width:900px;
+}
+
+#daily-log,
+#scan-item,
+#custom-recipe,
+#cooking,
+#onboarding,
+#maria-persona,
+#brian-modal-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size:50px;
+  cursor: pointer;
+}
+
+/*animations for the modals*/  
+
+
+.onboarding-content,
+.cooking-flow-content,
+.custom-recipe-content,
+.daily-log-content,
+.scan-item-content,
+.m-modal-content,
+.bmodal-content{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+  from{transform:scale(0)}
+  to{transform:scale(1)}
+}
+
+.affinity-map-photo{
+  max-width:650px;
+}
+
+.data-analysis-container{
+  color:black;
+  max-width:2000px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:150px;
+  padding-bottom:150px;
+}
+
+
+/*This is the containers for all the wireframes-------------------*/
+.wireframe-container{
+  padding-top:150px;
+}
+
+.km-wireframes-description{
+  display:flex;
+  flex-direction:column;
+  max-width:700px;
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.hand-drawn-frames{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.wireframe-hand-drawn-three,
+.wireframe-hand-drawn-two,
+.wireframe-hand-drawn-one{
+  width:350px;
+}
+
+#homepage-wireframe,
+#dashboard-wireframe,
+#recipe-wireframe,
+#instructions-wireframe,
+#daily-log-wireframe,
+#enviornmental-tips-wireframe,
+#filter-modal-wireframe,
+#ingredients-list-wireframe{
+  max-width:650px;
+  border:2px solid black;
+}
+
+.homepage-heading-description,
+.dashboard-heading-description,
+.recipe-heading-description,
+.instructions-heading-description,
+.daily-log-heading-description,
+.environmental-tips-heading-description,
+.filter-modal-heading-description,
+.ingredients-list-heading-description{
+  text-align:center;
+  max-width:700px;
+}
+
+/*These are wireframes----------------*/
+
+.filter-modal-description-and-photo,
+.daily-log-description-and-photo,
+.recipe-page-description-and-photo,
+.homepage-description-and-photo{
+  display:flex;
+  flex-direction:row-reverse;
+  margin-top:100px;
+  text-align:center;
+  justify-content:space-evenly;
+}
+
+/*These are wireframes-------------*/
+.enviornmental-tips-description-and-photo,
+.data-analysis-container,
+.ingredients-list-description-and-photo,
+.instructions-description-and-photo,
+.dashboard-description-and-photo{
+  display:flex;
+  flex-direction:row;
+  margin-top:100px;
+  justify-content:space-evenly;
+}
+
+
+
+/*mobile screens-------------------------------------------------------*/
+@media (max-width:800px) {
+  h1,
+  .title-and-description,
+  header{
+    background:#67AB76;
+    max-width:800px;
+    margin-right:auto;
+    margin-left:auto;
+    color:white;
+  }
+
+.kitchen-mate-sentence{
+  margin-left:0;
+}
+  .profile-pic{
+     width:100px;
+     height:auto;
+    margin-left:20px;
+    }
+
+  .affinity-map-photo,
+  #maria-image,
+  #brian-image{
+  width:400px;
+  }
+
+/*data analysis container begins here-------------------------*/
+  .data-analysis-container,
+  .maria-description-and-photo,
+  .brian-description-and-photo{
+    display:flex;
+    flex-direction:column;
+  }
+
+
+.persona-info{
+ font-family: 'Raleway', sans-serif;
+ padding-top:400px;
+}
+
+
+  /*-------------------Data analysis photos on mobile screens goes here-----------------*/
+  #custom-recipe-image,
+  #scan-image,
+  #daily-log-image,
+  #cooking-flow-photo,
+  #onboarding-photo{
+    width:400px;
+  }
+
+  /*-------------------------------user flows on mobile begin here-----------------------*/
+
+  .scan-description-photo,
+  .cooking-a-recipe-flow{
+    display:flex;
+    flex-direction:column;
+    padding-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    align-items:center;
+  }
+
+
+  .onboarding-description-flow,
+  .custom-recipe-description-photo,
+  .daily-log-photo-description{
+    display:flex;
+    flex-direction:column;
+    padding-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    align-items:center;
+  }
+
+
+  /*---------------------wireframes for the mobile screen here------------------------------*/
+.ingredients-list-description-and-photo,
+.filter-modal-description-and-photo,
+.enviornmental-tips-description-and-photo,
+.daily-log-description-and-photo,
+.instructions-description-and-photo,
+.recipe-page-description-and-photo,
+.dashboard-description-and-photo,
+.homepage-description-and-photo{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-right:auto;
+  margin-left:auto;
+  max-width:800px;
+  align-items:center;
+}
+
+#ingredients-list-wireframe,
+#filter-modal-wireframe,
+#enviornmental-tips-wireframe,
+#recipe-wireframe,
+#instructions-wireframe,
+#daily-log-wireframe,
+#dashboard-wireframe,
+#homepage-wireframe{
+  max-width:350px;
+}
+
+
+  .hand-drawn-frames{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  }
+}
+
+
+
+
+
+
+
+@media (min-width:802px) and (max-width:1280px){
+
+  h1,
+  .title-and-description,
+  header{
+    background:#67AB76;
+    max-width:800px;
+    margin-right:auto;
+    margin-left:auto;
+    color:white;
+  }
+
+.kitchen-mate-sentence{
+  margin-left:0;
+}
+  .profile-pic{
+     width:100px;
+     height:auto;
+    margin-left:20px;
+    }
+
+  #maria-image,
+  #brian-image{
+  width:400px;
+  }
+
+  .maria-description-and-photo,
+  .brian-description-and-photo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+.persona-info{
+ font-family: 'Raleway', sans-serif;
+ padding-top:400px;
+}
+
+
+.ingredients-list-description-and-photo,
+.filter-modal-description-and-photo,
+.enviornmental-tips-description-and-photo,
+.daily-log-description-and-photo,
+.instructions-description-and-photo,
+.recipe-page-description-and-photo,
+.dashboard-description-and-photo,
+.homepage-description-and-photo{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-right:auto;
+  margin-left:auto;
+  max-width:800px;
+  align-items:center;
+}
+
+#ingredients-list-wireframe,
+#filter-modal-wireframe,
+#enviornmental-tips-wireframe,
+#recipe-wireframe,
+#instructions-wireframe,
+#daily-log-wireframe,
+#dashboard-wireframe,
+#homepage-wireframe{
+  max-width:350px;
+}
+}
+

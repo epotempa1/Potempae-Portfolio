@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="kitchen-mate.css"/>
+ <script defer src="kitchen-mate.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>KitchenMate Page</title>
+</head>
+<body>
+ <header>
+   <a class="to-home" href="../homepage/homepage.html">
+       <img class="profile-pic" src="profile-picture.jpg">
+   </a>
+ </header>
+  <div class="title-and-description">
+    <h1>KitchenMate</h1>
+    <div class= "kitchen-mate-sentence">
+       <p>Guiding users to a healthier, more sustainable lifestyle. </p>
+    </div>
+  </div>
+   <div class="basic-info-container">
+    <div class="challenge">
+      <div class="challenge-title">
+      <h2>The Challenge</h2>
+      </div>
+      <div class="challenge-description">
+        <p>For Interaction Design I worked in a group of five other people to create
+          a cooking app for the Amazon Echo Show called, "Kitchen Mate." Kitchen Mate aimed to
+          guide users to a healthier, more sustainable way of life.
+          We conducted several observations and interviews to gain a comprehensive understanding
+          about diet, cooking, and lifestyle habits. The data was used as a guidance for the duration of the project
+          to maintain a user-centered approach to design.</p>
+      </div>
+    </div>
+
+      <div class="client">
+        <div class="client-title">
+        <h2>Client</h2>
+        </div>
+        <div class="client-description">
+        <p>Interaction Design Project at City, University of London </p>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-title">
+        <h2>Timeline</h2>
+        </div>
+        <div class="timeline-description">
+        <p>September, 2022-December, 2022. </p>
+        </div>
+    </div>
+    </div>
+  
+
+
+<!--Research portion----------------->
+  <div class="ID-research-container">
+    <div class="research-information">
+      <div class="phase-one-title">
+        <h2>Phase One : The Research</h2>
+      </div>
+        <div class="interviews-and-observations">
+          
+          <h3>Interviews and Observations</h3>
+         <p class="research"> KitchenMate's design was guided by data gathered from semi-structured interviews and contextual inquiries. Following a collaborative brainstorming             session, we created a list of open-ended questions to serve as a guide for the interviewing process. Topics of interest centered on: cooking habits, grocery shopping                 routines, dietary requirements, and sustainability. Interviews were one on one, occured both remotely and in person, and were under an hour long. </p> 
+
+            <p class="research"> Contextual Inquiries allowed us to have a dialogue with our participants as we observed them preparing and cooking meals. During these sessions,                   we documented any pertenent comments, behaviors, and frustrations, and would ask probing or clarifiying questions when appropriate. Inquiries occurred in various                   settings including: a student hall kitchen and a single family home. 
+            
+      </div>
+    </div>
+  </div>
+
+  <div class="data-analysis-container">
+      <div class="data-analysis-text">
+        <div class="data-analysis-heading">
+        <h2>Phase Two : Analyzing the Data</h2>
+        </div>
+        <p>Each member of the group began the analysis by familiarizing themselves with the data individually, paying attention to key insights. Afterwards, we reconvened to discuss our findings and organized our thoughts into an affinity diagram to identify overlaps amongst our findings. Some common themes we identified included: the desire to quick and easy meals, simple nutrition tracking, and preferring online recipes over hardcopy books.</p>
+        <p>We then moved on to developing an empathy map, to organize what our users think, do, feel,and say. This gave us a clear starting point and served as a foundation to our personas. </p>
+      </div>
+    <div class="affinity-diagram">
+  <img class="affinity-map-photo" src="affinity-diagram.jpg"/>
+  </div>
+  </div>
+
+  
+<!--here are the personas and text-->
+  <div class="persona-container">
+    <div class="persona-description">
+      <div class="persona-title">
+    <h2>Phase Three : Who are the Users?</h2>
+      </div>
+      <div class="persona-build-description">
+        <p>The data gathered from our semis-tructured interviews and observations
+        were used to bring our two personas, Maria and Brian, to life. From our data, we realized there were two different types of users: one who is already knowledgeable about the ins and outs of a healthy lifestyle, and one who is at the beginning stages of their journey. 
+ </p>
+      </div>
+    </div>
+        <!--Persona one, Brian, goes here.---->
+       <div class="brian-description-and-photo">
+         <div class="brian-heading-description">
+           <h3>Brian</h3>
+           <p>Brian is a former athlete already well versed in fitness and nutrition. His hectic schedule as an arbitrator in London, however, has limited his capactiy to maintain that lifestyle and he's frustrated that he feels he must choose between a healthy meal and something delicious. Ideally he doesn't want to spend more than twenty minutes cooking a meal, and wants a variety of healthy and delicious options that meet his nutritional goals.  </p>
+         </div>
+         <div class="brian-photo">
+           <img id="brian-image" src="persona-1.jpg" alt="Brian">
+         </div>
+       </div>
+
+      <!--This is the information for the persona modal one-->
+    <div id="brian-modal" class="persona-modal-one">
+      <span class="close"> &times;</span>
+      <img class="bmodal-content" id="img-brian-modal">
+      <div id="brian-modal-caption"></div>
+    </div>
+
+    
+    <!--Persona two, Maria, goes here------->
+    <div class="maria-description-and-photo">
+      <div class="maria-heading-description">
+        <h3>Maria</h3>
+        <p> Maria was interested in shifting to a more environmentally friendly, vegan lifestyle and was looking for optimal alternatives to animal products. She feels overwhelmed though and doesn't know where to start when looking for replacement products, and misses meals she used to enjoy but had to give up because they are not vegan. She doesn't mind spending more time cooking her meals and likes the idea of tracking her vitamins and minerals. 
+       </p>
+      </div>
+    <div class="maria-photo">
+      <img id="maria-image" src="persona-2.jpg" alt="Maria">
+    </div>
+  </div>
+    <!-- This is the information for the Maria modal-->
+    <div id="maria-modal" class="persona-modal-two">
+           <span class="close"> &times;</span>
+          <img class="m-modal-content" id="image-maria-modal">
+          <div id="maria-persona"></div>
+   </div>
+</div>
+ </div> 
+  </div>
+</div>
+
+  <!--Information about the ideation phase is going to go here.--->
+  <div class="ideation-container">
+    <div class="ideation-paragraph">
+      <div class="ideation-title">
+         <h2>Phase Four : Ideation</h2>
+       </div>
+      <div class="ideation-description">
+       <div class="brainstorming-title">
+        <h3>Brainstorming and Sketching</h3>
+        </div>
+          <p>We started this stage by independently brainstorming ideas to solve user pain points and presented them to the group via sketches, each group member having three to four             ideas. From there, we moved onto storyboarding where we more clearly outlined how KitchenMate could address these painpoints. Because our prior research indicated that                 people tend to struggle reading nutritional information on the packaging, the first journey we illustrated depicted a consumer in a grocery store scanning a food item to               gain further information (calorie information, vegetarian vs. vegan product, etc.). The second focused on how users could take advantage of KitchenMate's extensive                   recipe library as they browsed to find one that most suited their needs. </p>
+         </div>
+   </div>
+      <!--------------------------------user flows segment--------------------------------------->
+ <div class="user-flows-container">     
+  <div class="user-flows-text">
+   <div class="user-flows-title">
+    <h3>User Flows</h3>
+     </div>
+        <div class="user-flows-description">
+          <p>We then moved on to creating user flows to show the steps users would take to carry out six key tasks               on KitchenMate, which are as follows:</p>
+      </div>
+  </div>
+   <div class="user-flows">
+<!--onboarding flow goes here----------->
+     <div class="onboarding-description-flow">
+       <div class="onboarding-caption">
+         <div class="onboarding-flow-title">
+           <h3>Onboarding</h3>
+         </div>
+         <div class="onboarding-flow-paragraph">
+           <p>Our research indicated that KitchenMate must have the ability to create multiple profiles because it is so common for many people to share one kitchen space. The user flow detailed here shows the steps a consumer would take to create their own profile</p>
+         </div>
+       </div>
+       <div class="onboarding-image">
+         <img id="onboarding-photo" src="onboarding-flow.jpg">
+       </div>
+     </div>
+<!--modal for the onboarding flow goes here---------------------------->
+     <div id="onboarding-modal" class="onboarding-one">
+        <span class="close"> &times;</span>
+       <img class="onboarding-content" id="image-onboarding-flow">
+       <div id="onboarding"></div>
+     </div>
+     
+<!--cooking a recipe description and photo goes here-------->
+     <div class="cooking-a-recipe-flow">
+       <div class="cooking-caption">
+         <div class="cooking-flow-title">
+           <h3>Cooking a Recipe</h3>
+         </div>
+           <div class="cooking-recipe-paragraph">
+             <p>Our research indicated that users want to be able to search for recipes corresponding with their requirements such as dietary restrictions and amount of time to cook. This user flow shows how people can search for and carry out a recipe with KitchenMate. After choosing a meal, the recipe will be displayed step-by-step on a secondary screen. For those with full or messy hands, (which happens to the best of us when cooking), they can interact with KitchenMate through voice commands, telling it to move onto the next step, or go back a step if they need to clarify. This simple and straight forward design alleviated another pain point expressed by users: getting lost or confused in extensive texts</p>
+           </div>
+       </div>
+       <div class="cooking-flow-image">
+         <img id="cooking-flow-photo" src="cooking-recipe-flow.jpg">
+       </div>
+     </div>
+
+<!------------------------Cooking flow modal begins here--------------------------->     
+      <div id="cooking-flow-modal" class="cooking-flow-one">
+         <span class="close"> &times;</span>
+        <img class="cooking-flow-content" id="image-cooking-flow">
+        <div id="cooking"></div>
+      </div>
+<!--custom recipe flow begins here------>
+     <div class="custom-recipe-description-photo">
+       <div class="custom-caption">
+         <div class="custom-recipe-title">
+           <h3>Adding a Custom Recipe</h3>
+         </div>
+         <div class="custom-recipe-paragraph">
+           <p>For those who are already pretty savvy in the kitchen, but would still like to use KitchenMate for other features like nutrient tracking, they can add their own custom recipes here. This flow shows how they could go about doing that.</p>
+         </div>
+       </div>
+       <div class="custom-recipe-photograph">
+         <img id="custom-recipe-image" src="custom-recipe.jpg">
+       </div>
+     </div>
+
+<!----------Custom Recipe modal goes here----------------------> 
+     <div id="custom-recipe-modal" class="custom-recipe-one">
+       <span class="close"> &times;</span>
+       <img class="custom-recipe-content" id="image-custom-recipe">
+       <div id="custom-recipe"></div>
+     </div>
+<!--scan an item in store goes here------------------->
+     <div class="scan-description-photo">
+       <div class="scan-caption">
+         <div class="scan-title">
+           <h3>Scanning an Item in the Store</h3>
+         </div>
+         <div class="scan-paragraph">
+         <p>With KitchenMate's companion app available through app stores, users can scan the barcodes of products they find in stores to read more information about it. It's perfect for the health conscious users keeping track of their intake, or the enviornmentally conscious who want to know more about where their products are coming from</p>
+         </div>
+       </div>
+       <div class="scan-photograph">
+         <img id="scan-image" src="scan-items-flow.jpg">
+       </div>
+     </div>
+  <!--Scan item modal goes here ------------------------->
+     <div id="scan-item-modal" class="scan-item-one">
+       <span class="close"> &times;</span>
+       <img class="scan-item-content" id="image-scan-item">
+       <div id="scan-item"></div>
+     </div>
+     
+  <!--Daily log flow goes here -------------------------->
+     <div class="daily-log-photo-description">
+       <div class="daily-log-caption">
+         <div class="daily-log-title">
+           <h3>Logging your Daily Intake</h3>
+         </div>
+         <div class="daily-log-paragraph">
+           <p>This user flow demonstrates the ways they could log their meals. First, they could either select "Create Custom Recipes" and add the ingredients (which would be saved under "custom recipes"), or they can add it by locating it through the KitchenMate database. Whichever method they take, they finalize the process by adjusting the serving size and clicking "add to dashboard."</p>
+         </div>
+         </div>
+         <div class="daily-log-photograph">
+           <img id="daily-log-image" src="daily-log-flow.jpg">
+         </div>
+     </div>
+ <!--Daily log photograph modal goes here------------------------->
+     <div id="daily-log-modal" class="daily-log-one">
+       <span class="close"> &times;</span>
+       <img class="daily-log-content" id="image-daily-log">
+       <div id="daily-log"></div>
+     </div>
+   </div>
+ </div>
+       
+        
+
+ 
+
+<!----here ends all of the user flows--------------------------->          
+            
+   
+   
+  
+  
+  <!-----------------------------here are the wireframes for kitchen mate------------------------------>
+<div class="wireframe-container">
+  <div class="km-wireframes">
+    <div class="km-wireframes-description">
+      <div class="km-wireframes-title">
+   <h2>Phase Five : Wireframes and a Prototype</h2>
+      </div>
+      <div class="wireframe-build-process">
+        <p>We initiated this process by creating hand drawn wireframes, affording us the flexibility to make adjustments as needed. Once completed, we moved on to prototyping and created prototypes for the following user journeys:
+          <div class="prototype-list">
+        <ol>
+          <ul>Onboarding</ul>
+          <ul>Cooking a Recipe</ul>
+          <ul>Custom Recipes</ul>
+          <ul>Adding a Reipe to the Daily Log</ul>
+        </ol></p>
+            <p>We ensured our prototype would be intuitive and learnable by incorporating pre-existing and commonly accepted design principles such as: drop down menus, text fields, and navigation bars. </p>
+            <p>The prototype was divided into four sections: The Homepage, Dashboard, My Recipes, and Grocery List.</p>
+          </div>
+      </div>
+    </div>
+    <!---Hand drawn wireframes are here---------->
+    <div class="hand-drawn-frames">
+      <div class="hand-drawn-one">
+        <img class="wireframe-hand-drawn-one" src="wireframe-hand-one.jpg">
+      </div>
+      <div class="hand-drawn-two">
+        <img class="wireframe-hand-drawn-two" src="wireframe-hand-two.jpg">
+      </div>
+      <div class="hand-drawn-three">
+        <img class="wireframe-hand-drawn-three" src="wireframe-hand-three.jpg">
+      </div>
+    </div>
+    <!--Wireframe 1 here.-->
+      <div class="homepage-description-and-photo">
+        <div class="homepage-heading-description">
+          <h3>The Homepage</h3>
+      <p>At the homepage, users can review recommended recipes generated by preferences they chose during the onboarding process. They can also see their daily log and get an idea of nutritional goals for the day</p>
+          <p>In the top right, the "my account" button allows users to change meal preferences, change their health information, or add other users for easy access between accounts. </p>
+        </div>
+    <img id="homepage-wireframe" src="km-homepage.jpg">
+     </div>
+    
+   <!--This is the information for wireframe 1 modal-->
+      <div id="wireframe-one" class="wireframe-one-modal">
+        <span class="close"> &times;</span>
+        <img class="wireframe-one-modal-content" id="wireframe-one-modal-image">
+        <div id="wireframe-one-caption"></div>
+      </div>
+   
+    <div class="dashboard-description-and-photo">
+      <div class="dashboard-heading-description">
+        <h3>The Dashboard</h3>
+    <p>At the homepage, users can review recommended recipes generated by preferences they chose during the onboarding process. They can also see their daily log and get an idea of nutritional goals for the day</p>
+        <p>In the top right, the "my account" button allows users to change meal preferences, change their health information, or add other users for easy access between accounts. </p>
+      </div>
+    <img id="dashboard-wireframe" src="km-dashboard.jpg">
+    </div>
+    
+    
+<!--Wireframe 3 here.-->
+    <div class="recipe-page-description-and-photo">
+      <div class="recipe-heading-description">
+        <h3>Recipe Page</h3>
+    <p>A common theme shared amongst our interviewees was the desire to search for recipes online. This lead to the development of a core element for KitchenMate: a library of recipes. When viewing their options, users will see familiar features such as a list of ingredients, cook time, and nutritional facts about the meal (vegan, high protein, nut free, etc.). They can broaden or narrow their search by adjusting these filters or the slider signifying cook time. This can be accomplished manually either through Echo Show’s touch screen, or by voice command. This was a crucial attribute to include in our final product as our user research indicated that no two individuals’ cooking habits are alike. We wanted to ensure our product would appeal to both those who enjoy spending hours in the kitchen, and people who prefer to allocate their time elsewhere.  .</p>
+      </div>
+    <img id="recipe-wireframe" src="km-recipe-screen.jpg">
+    </div>
+
+    
+<!--Wireframe 4 here.-->
+    <div class="instructions-description-and-photo">
+      <div class="instructions-heading-description">
+        <h3>Step-by-step Instructions</h3>
+          <p>Two concerns revealed in our research were: concerns the desire to clearly view each cooking step, and eliminate excessive amounts of information. Kitchenmate addresses this by using a step-by-step guide conveying the process on a clear modal screen with a progress bar at the top indicating which step they are on.  </p>
+      </div>
+    <img id="instructions-wireframe" src="km-cooking-steps.jpg">
+    </div>
+    
+    
+      <!--Wireframe 5 goes here-->
+    <div class="daily-log-description-and-photo">
+      <div class="daily-log-heading-description">
+        <h3>Adding to the daily log</h3>
+          <p>For those who are counting calories or tracking their diets, KitchenMate automatically                     provides them with the option to add a meal to their daily log for easy tracking.</p>
+      </div>
+    <img id="daily-log-wireframe" src="daily-log-modal.jpg">
+    </div>
+
+<!---Wireframe 6 goes here-->
+    <div class="enviornmental-tips-description-and-photo">
+      <div class="environmental-tips-heading-description">
+        <h3>Enviornmental Tips</h3>
+          <p>While our research indicated that users were not particularly concerned about the environmental impact of their eating habits, sustainability was still a goal for the ficticious client behind KitchenMate. As a result, we still implemented environmentally friendly features, but less obtrusively. When a user has finished cooking a meal, they are presented with a modal with a short tip about living more sustainably. Users then have the option to click for more information if they choose to.</p>
+      </div>
+    <img id="enviornmental-tips-wireframe" src="veggie-compost-modal.jpg">
+    </div>
+
+    
+    <!-----------------------------wireframe 7 begins here---------------------------------> 
+    <div class="filter-modal-description-and-photo">
+      <div class="filter-modal-heading-description">
+        <h3>Filtering your Options</h3>
+          <p>For those who are counting calories or tracking their diets, KitchenMate automatically                     provides them with the option to add a meal to their daily log for easy tracking.</p>
+      </div>
+    <img id="filter-modal-wireframe" src="filter-modal.jpg">
+    </div>
+    
+    <!---wireframe seven modal content begins here.----->
+    <div id="wireframe-seven" class="wireframe-seven-modal">
+      <span class="close"> &times; </span>
+      <img class="wireframe-seven-modal-content" id="wireframe-seven-modal-image">
+      <div id="wireframe-seven-caption"></div>
+    </div>
+
+
+    <!------------------------wireframe eight begins here-------------------------->
+    <div class="ingredients-list-description-and-photo">
+      <div class="ingredients-list-heading-description">
+        <h3>Ingredients List</h3>
+          <p>A unique aspect of KitchenMate is the ability to add desired ingredients to a shopping list with a simple click or voice command. From there, users can pull up the app on their mobiles when they arrive at the grocery store for an easy checklist. They also can scan barcodes to get more information about certain products, which is appealing to those who expressed the desire to shop for cage free eggs, for example, or are perhaps attempting to follow a vegan diet but are struggling to find quality protein replacements for meat.</p>
+      </div>
+    <img id="ingredients-list-wireframe" src="ingredients-list-modal.jpg">
+    </div>
+    </div>
+</div>
+<!----------------------------Phase seven begins here------------------------------->
+  <div class="reflection-container">
+    <div class="reflection-text">
+      <div class="reflection-title">
+        <h2>Phase Seven : Testing  & Reflection</h2>
+      </div>
+      <div class="reflection-description">
+        <div class="testing-with-users-heading">
+        <h3>Testing with Users</h3>
+        </div>
+        <p> At the beginning of the test, we explained the purpose of KitchenMate and the evaluation, discussed consent, and asked if they had any questions. Once testing had completed, we asked users open-ended questions about their overall experience with KitchenMate. We wanted to know what they enjoyed, disliked, and what they would like to see change. </p>
+        <p>User testing showed the app was clear and easy to navigate as each participant accomplished the tasks in less than five minutes. Additionally, they praised KitchenMate's intuitiveness, emphasizing the familiarity of icons and available filters. We were moderately concerned that the placement of the "Add to Grocery List" button may stir confusion. In our original markups it was placed next to the recipe ingredients, but for testing we placed it next to the "Cook Now" button instead. Thankfully, participants experience no frustration or confusion due to this placement. </p>
+         <div class="improvement-ideas">
+           <h3>Areas for Improvement</h3>
+         </div>
+        <p>While we were overall satisfied with our design and felt it successfully addressed all pain points discovered in our research, we felt it could have been improved had we added more cues or suggesting recipes for those indecisive users. Additionally, we could have taken advantage of the Echo Show's larger screen size by adding more dimensionality to our designs and layouts, instead of relying on a traditional grid pattern. Additionally, the lack of an explicit "final" screen to indicate the user had completed certain tasks, (cooking a meal, for example) could lead to some confusion.</p>
+        <p>Due to time and resource constraints, we had three observers for one contextual enquiry of two people which could have led our recruits to stray from their natural behavior. While having multiple researchers present may have alleviated concerns of observer bias, having a maximum of two researchers present would have been ideal. </p>
+        
+      </div>
+    </div>
+  </div>
+ <footer>
+
+</footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+// Brian's modal
+var brianModal = document.getElementById("brian-modal");
+var brianImg = document.getElementById("brian-image");
+var modalImg = document.getElementById("img-brian-modal");
+var brianCaptionText = document.getElementById("brian-modal-caption");
+
+brianImg.onclick = function () {
+  brianModal.style.display = "block";
+  modalImg.src = this.src;
+  brianCaptionText.innerHTML = this.alt;
+}
+
+var brianCloseSpan = document.getElementsByClassName("close")[0];
+brianCloseSpan.onclick = function () {
+  brianModal.style.display = "none";
+}
+
+document.addEventListener('click', function (event) {
+  if (event.target === brianModal) {
+    brianModal.style.display = 'none';
+  }
+});
+
+// Maria's modal
+var mariaModal = document.getElementById("maria-modal");
+var mariaImg = document.getElementById("maria-image");
+var modalImgMaria = document.getElementById("image-maria-modal");
+var mariaCaptionText = document.getElementById("maria-persona");
+
+mariaImg.onclick = function () {
+  mariaModal.style.display = "block";
+  modalImgMaria.src = this.src;
+  mariaCaptionText.innerHTML = this.alt;
+}
+
+var mariaCloseSpan = document.getElementsByClassName("close")[0];
+mariaCloseSpan.onclick = function () {
+  mariaModal.style.display = "none";
+}
+
+document.addEventListener('click', function (event) {
+  if (event.target === mariaModal) {
+    mariaModal.style.display = 'none';
+  }
+});
+
+// Onboarding flow photo modal
+var onboardingModal = document.getElementById("onboarding-modal");
+var onboardingPhoto = document.getElementById("onboarding-photo");
+var modalImgOnboarding = document.getElementById("image-onboarding-flow");
+var onboardingCaptionText = document.getElementById("onboarding-caption");
+
+onboardingPhoto.onclick = function () {
+  onboardingModal.style.display = "block";
+  modalImgOnboarding.src = this.src;
+  onboardingCaptionText.innerHTML = this.alt;
+};
+
+function closeModalOnboarding() {
+  onboardingModal.style.display = "none";
+}
+
+// Cooking user flow modal
+var cookingFlowModal = document.getElementById("cooking-flow-modal");
+var cookingFlowPhoto = document.getElementById("cooking-flow-photo");
+var modalImgCookingFlow = document.getElementById("image-cooking-flow");
+
+cookingFlowPhoto.onclick = function () {
+  cookingFlowModal.style.display = "block";
+  modalImgCookingFlow.src = this.src;
+};
+
+function closeModalCookingFlow() {
+  cookingFlowModal.style.display = "none";
+}
+
+// Handle window click events for all modals
+window.onclick = function (event) {
+  if (event.target == onboardingModal) {
+    closeModalOnboarding();
+  } else if (event.target == cookingFlowModal) {
+    closeModalCookingFlow();
+  }
+};
+
+// Custom Recipe modal
+var customRecipeModal = document.getElementById("custom-recipe-modal");
+var customRecipeImage = document.getElementById("custom-recipe-image");
+var modalImgCustomRecipe = document.getElementById("image-custom-recipe");
+
+customRecipeImage.onclick = function () {
+  customRecipeModal.style.display = "block";
+  modalImgCustomRecipe.src = this.src;
+};
+
+var customRecipeCloseSpan = document.getElementsByClassName("close")[0];
+customRecipeCloseSpan.onclick = function () {
+  customRecipeModal.style.display = "none";
+};
+
+document.addEventListener('click', function (event) {
+  if (event.target === customRecipeModal) {
+    customRecipeModal.style.display = 'none';
+  }
+});
+
+// Scan Item modal
+var scanItemModal = document.getElementById("scan-item-modal");
+var scanItemImage = document.getElementById("scan-image");
+var modalImgScanItem = document.getElementById("image-scan-item");
+
+scanItemImage.onclick = function () {
+  scanItemModal.style.display = "block";
+  modalImgScanItem.src = this.src;
+};
+
+var scanItemCloseSpan = document.getElementsByClassName("close")[0];
+scanItemCloseSpan.onclick = function () {
+  scanItemModal.style.display = "none";
+};
+
+document.addEventListener('click', function (event) {
+  if (event.target === scanItemModal) {
+    scanItemModal.style.display = 'none';
+  }
+});
+
+//Daily log modal goes here 
+
+// Daily Log modal
+var dailyLogModal = document.getElementById("daily-log-modal");
+var dailyLogImage = document.getElementById("daily-log-image");
+var modalImgDailyLog = document.getElementById("image-daily-log");
+
+dailyLogImage.onclick = function () {
+  dailyLogModal.style.display = "block";
+  modalImgDailyLog.src = this.src;
+};
+
+var dailyLogCloseSpan = document.getElementsByClassName("close")[0];
+dailyLogCloseSpan.onclick = function () {
+  dailyLogModal.style.display = "none";
+};
+
+document.addEventListener('click', function (event) {
+  if (event.target === dailyLogModal) {
+    dailyLogModal.style.display = 'none';
+  }
+});
